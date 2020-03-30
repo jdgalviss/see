@@ -105,3 +105,4 @@ logs
 
 nccl*
 *.csv
+shared

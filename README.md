@@ -1,7 +1,7 @@
 # SEE: Towards Semi-Supervised End-to-End Scene Text Recognition
 Code for the AAAI 2018 publication "SEE: Towards Semi-Supervised End-to-End Scene Text Recognition". You can read a preprint on [Arxiv](http://arxiv.org/abs/1712.05404)
 
-
+docker run -v /home/jdgalviss/applications/see/shared:/usr/src/app/shared -p 8888:8888 -it --rm --gpus all see
 # Installation
 
 You can install the project directly on your PC or use a Docker container
